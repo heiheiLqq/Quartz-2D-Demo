@@ -15,6 +15,18 @@
 		2609D6F01E31B22C00B05889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2609D6EE1E31B22C00B05889 /* LaunchScreen.storyboard */; };
 		2609D6FB1E31B22C00B05889 /* Quartz_2D_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609D6FA1E31B22C00B05889 /* Quartz_2D_DemoTests.m */; };
 		2609D7061E31B22C00B05889 /* Quartz_2D_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609D7051E31B22C00B05889 /* Quartz_2D_DemoUITests.m */; };
+		2609D7151E31F4C700B05889 /* WaterPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609D7141E31F4C700B05889 /* WaterPhotoViewController.m */; };
+		2609D7181E31F5F100B05889 /* CirclePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609D7171E31F5F100B05889 /* CirclePhotoViewController.m */; };
+		2609D71B1E31F74500B05889 /* ClipPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609D71A1E31F74500B05889 /* ClipPhotoViewController.m */; };
+		2609D71F1E31F7FC00B05889 /* ClipScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609D71D1E31F7FC00B05889 /* ClipScreenViewController.m */; };
+		2609D7201E31F7FC00B05889 /* ClipScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2609D71E1E31F7FC00B05889 /* ClipScreenViewController.xib */; };
+		2609D7231E31F92400B05889 /* ClearPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609D7221E31F92400B05889 /* ClearPhotoViewController.m */; };
+		2609D7261E31FBA200B05889 /* GestureLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609D7251E31FBA200B05889 /* GestureLockViewController.m */; };
+		2609D72C1E320AA400B05889 /* LockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609D72B1E320AA400B05889 /* LockView.m */; };
+		2609D7301E32467700B05889 /* DrawingBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609D72E1E32467700B05889 /* DrawingBoardViewController.m */; };
+		2609D7311E32467700B05889 /* DrawingBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2609D72F1E32467700B05889 /* DrawingBoardViewController.xib */; };
+		2609D7341E32514500B05889 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609D7331E32514500B05889 /* DrawView.m */; };
+		2609D7371E32597700B05889 /* MyBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609D7361E32597700B05889 /* MyBezierPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,28 @@
 		2609D7011E31B22C00B05889 /* Quartz 2D DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quartz 2D DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2609D7051E31B22C00B05889 /* Quartz_2D_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz_2D_DemoUITests.m; sourceTree = "<group>"; };
 		2609D7071E31B22C00B05889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2609D7131E31F4C700B05889 /* WaterPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterPhotoViewController.h; sourceTree = "<group>"; };
+		2609D7141E31F4C700B05889 /* WaterPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterPhotoViewController.m; sourceTree = "<group>"; };
+		2609D7161E31F5F100B05889 /* CirclePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclePhotoViewController.h; sourceTree = "<group>"; };
+		2609D7171E31F5F100B05889 /* CirclePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirclePhotoViewController.m; sourceTree = "<group>"; };
+		2609D7191E31F74500B05889 /* ClipPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipPhotoViewController.h; sourceTree = "<group>"; };
+		2609D71A1E31F74500B05889 /* ClipPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipPhotoViewController.m; sourceTree = "<group>"; };
+		2609D71C1E31F7FC00B05889 /* ClipScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipScreenViewController.h; sourceTree = "<group>"; };
+		2609D71D1E31F7FC00B05889 /* ClipScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipScreenViewController.m; sourceTree = "<group>"; };
+		2609D71E1E31F7FC00B05889 /* ClipScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClipScreenViewController.xib; sourceTree = "<group>"; };
+		2609D7211E31F92400B05889 /* ClearPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearPhotoViewController.h; sourceTree = "<group>"; };
+		2609D7221E31F92400B05889 /* ClearPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearPhotoViewController.m; sourceTree = "<group>"; };
+		2609D7241E31FBA200B05889 /* GestureLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureLockViewController.h; sourceTree = "<group>"; };
+		2609D7251E31FBA200B05889 /* GestureLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureLockViewController.m; sourceTree = "<group>"; };
+		2609D72A1E320AA400B05889 /* LockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockView.h; sourceTree = "<group>"; };
+		2609D72B1E320AA400B05889 /* LockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockView.m; sourceTree = "<group>"; };
+		2609D72D1E32467700B05889 /* DrawingBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingBoardViewController.h; sourceTree = "<group>"; };
+		2609D72E1E32467700B05889 /* DrawingBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingBoardViewController.m; sourceTree = "<group>"; };
+		2609D72F1E32467700B05889 /* DrawingBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawingBoardViewController.xib; sourceTree = "<group>"; };
+		2609D7321E32514500B05889 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		2609D7331E32514500B05889 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		2609D7351E32597700B05889 /* MyBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBezierPath.h; sourceTree = "<group>"; };
+		2609D7361E32597700B05889 /* MyBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBezierPath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +144,28 @@
 				2609D6EE1E31B22C00B05889 /* LaunchScreen.storyboard */,
 				2609D6F11E31B22C00B05889 /* Info.plist */,
 				2609D6E01E31B22B00B05889 /* Supporting Files */,
+				2609D7131E31F4C700B05889 /* WaterPhotoViewController.h */,
+				2609D7141E31F4C700B05889 /* WaterPhotoViewController.m */,
+				2609D7161E31F5F100B05889 /* CirclePhotoViewController.h */,
+				2609D7171E31F5F100B05889 /* CirclePhotoViewController.m */,
+				2609D7191E31F74500B05889 /* ClipPhotoViewController.h */,
+				2609D71A1E31F74500B05889 /* ClipPhotoViewController.m */,
+				2609D71C1E31F7FC00B05889 /* ClipScreenViewController.h */,
+				2609D71D1E31F7FC00B05889 /* ClipScreenViewController.m */,
+				2609D71E1E31F7FC00B05889 /* ClipScreenViewController.xib */,
+				2609D7211E31F92400B05889 /* ClearPhotoViewController.h */,
+				2609D7221E31F92400B05889 /* ClearPhotoViewController.m */,
+				2609D7241E31FBA200B05889 /* GestureLockViewController.h */,
+				2609D7251E31FBA200B05889 /* GestureLockViewController.m */,
+				2609D72A1E320AA400B05889 /* LockView.h */,
+				2609D72B1E320AA400B05889 /* LockView.m */,
+				2609D72D1E32467700B05889 /* DrawingBoardViewController.h */,
+				2609D72E1E32467700B05889 /* DrawingBoardViewController.m */,
+				2609D72F1E32467700B05889 /* DrawingBoardViewController.xib */,
+				2609D7321E32514500B05889 /* DrawView.h */,
+				2609D7331E32514500B05889 /* DrawView.m */,
+				2609D7351E32597700B05889 /* MyBezierPath.h */,
+				2609D7361E32597700B05889 /* MyBezierPath.m */,
 			);
 			path = "Quartz 2D Demo";
 			sourceTree = "<group>";
@@ -249,7 +305,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2609D7201E31F7FC00B05889 /* ClipScreenViewController.xib in Resources */,
 				2609D6F01E31B22C00B05889 /* LaunchScreen.storyboard in Resources */,
+				2609D7311E32467700B05889 /* DrawingBoardViewController.xib in Resources */,
 				2609D6ED1E31B22C00B05889 /* Assets.xcassets in Resources */,
 				2609D6EB1E31B22C00B05889 /* Main.storyboard in Resources */,
 			);
@@ -277,8 +335,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				2609D6E81E31B22C00B05889 /* ViewController.m in Sources */,
+				2609D7371E32597700B05889 /* MyBezierPath.m in Sources */,
+				2609D7151E31F4C700B05889 /* WaterPhotoViewController.m in Sources */,
+				2609D7341E32514500B05889 /* DrawView.m in Sources */,
+				2609D71F1E31F7FC00B05889 /* ClipScreenViewController.m in Sources */,
+				2609D7181E31F5F100B05889 /* CirclePhotoViewController.m in Sources */,
+				2609D71B1E31F74500B05889 /* ClipPhotoViewController.m in Sources */,
+				2609D7231E31F92400B05889 /* ClearPhotoViewController.m in Sources */,
+				2609D72C1E320AA400B05889 /* LockView.m in Sources */,
+				2609D7301E32467700B05889 /* DrawingBoardViewController.m in Sources */,
 				2609D6E51E31B22B00B05889 /* AppDelegate.m in Sources */,
 				2609D6E21E31B22B00B05889 /* main.m in Sources */,
+				2609D7261E31FBA200B05889 /* GestureLockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +498,7 @@
 				DEVELOPMENT_TEAM = PTZL69GT3W;
 				INFOPLIST_FILE = "Quartz 2D Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "zzh.Quartz-2D-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = zzh.UITableVIewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -442,7 +510,7 @@
 				DEVELOPMENT_TEAM = PTZL69GT3W;
 				INFOPLIST_FILE = "Quartz 2D Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "zzh.Quartz-2D-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = zzh.UITableVIewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

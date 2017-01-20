@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2609D6DC1E31B22B00B05889"
+               BuildableName = "Quartz 2D Demo.app"
+               BlueprintName = "Quartz 2D Demo"
+               ReferencedContainer = "container:Quartz 2D Demo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2609D6F51E31B22C00B05889"
+               BuildableName = "Quartz 2D DemoTests.xctest"
+               BlueprintName = "Quartz 2D DemoTests"
+               ReferencedContainer = "container:Quartz 2D Demo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2609D7001E31B22C00B05889"
+               BuildableName = "Quartz 2D DemoUITests.xctest"
+               BlueprintName = "Quartz 2D DemoUITests"
+               ReferencedContainer = "container:Quartz 2D Demo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2609D6DC1E31B22B00B05889"
+            BuildableName = "Quartz 2D Demo.app"
+            BlueprintName = "Quartz 2D Demo"
+            ReferencedContainer = "container:Quartz 2D Demo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2609D6DC1E31B22B00B05889"
+            BuildableName = "Quartz 2D Demo.app"
+            BlueprintName = "Quartz 2D Demo"
+            ReferencedContainer = "container:Quartz 2D Demo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2609D6DC1E31B22B00B05889"
+            BuildableName = "Quartz 2D Demo.app"
+            BlueprintName = "Quartz 2D Demo"
+            ReferencedContainer = "container:Quartz 2D Demo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

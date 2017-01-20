@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    ViewController * vc = [[ViewController alloc]init];
+    
+    vc.title = @"Quartz2D";
+    
+    UINavigationController * naVc = [[UINavigationController alloc]initWithRootViewController:vc];
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.rootViewController = naVc;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
