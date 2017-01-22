@@ -14,6 +14,7 @@
 #import "ClearPhotoViewController.h"
 #import "GestureLockViewController.h"
 #import "DrawingBoardViewController.h"
+#import "GestureRecognizerViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,weak)UITableView * tableView;
@@ -29,7 +30,6 @@
 
 
 -(void)viewDidLoad{
-
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     UITableView * tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
@@ -46,7 +46,7 @@
 
     if (!_dataSource) {
         
-        _dataSource = @[@"图片水印",@"图片裁剪",@"屏幕截屏",@"图片截取",@"图片擦除",@"手势解锁",@"画板"];
+        _dataSource = @[@"图片水印",@"图片裁剪",@"屏幕截屏",@"图片截取",@"图片擦除",@"手势解锁",@"画板",@"手势处理"];
     }
     return _dataSource;
 
@@ -110,11 +110,18 @@
         lock.title = self.dataSource[indexPath.row];
         [self.navigationController pushViewController:lock animated:YES];
         
-    }else{
+    }else if(indexPath.row == 6){
         DrawingBoardViewController * drawBoard = [[DrawingBoardViewController alloc]init];
         drawBoard.title = self.dataSource[indexPath.row];
         [self.navigationController pushViewController:drawBoard animated:YES];
     
+    }else{
+        GestureRecognizerViewController * drawBoard = [[GestureRecognizerViewController alloc]init];
+        drawBoard.title = self.dataSource[indexPath.row];
+        [self.navigationController pushViewController:drawBoard animated:YES];
+        
+    
+        
     }
 
 

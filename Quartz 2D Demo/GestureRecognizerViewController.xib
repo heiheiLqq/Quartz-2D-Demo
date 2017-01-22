@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GestureRecognizerViewController">
+            <connections>
+                <outlet property="imageView" destination="4x0-ej-M0C" id="cff-1g-c8J"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="小新" translatesAutoresizingMaskIntoConstraints="NO" id="4x0-ej-M0C">
+                    <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="1Zt-q2-OZs"/>
+                        <constraint firstAttribute="width" constant="200" id="Zwz-hr-Uon"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4x0-ej-M0C" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="AZe-Gz-7U4"/>
+                <constraint firstItem="4x0-ej-M0C" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="PAH-pd-YmK"/>
+            </constraints>
+            <point key="canvasLocation" x="-269" y="12"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="小新" width="200" height="200"/>
+    </resources>
+</document>

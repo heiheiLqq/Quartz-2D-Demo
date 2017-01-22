@@ -27,6 +27,8 @@
 		2609D7311E32467700B05889 /* DrawingBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2609D72F1E32467700B05889 /* DrawingBoardViewController.xib */; };
 		2609D7341E32514500B05889 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609D7331E32514500B05889 /* DrawView.m */; };
 		2609D7371E32597700B05889 /* MyBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2609D7361E32597700B05889 /* MyBezierPath.m */; };
+		26DA26D51E347D2900B979E9 /* GestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26DA26D31E347D2900B979E9 /* GestureRecognizerViewController.m */; };
+		26DA26D61E347D2900B979E9 /* GestureRecognizerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26DA26D41E347D2900B979E9 /* GestureRecognizerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,9 @@
 		2609D7331E32514500B05889 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		2609D7351E32597700B05889 /* MyBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBezierPath.h; sourceTree = "<group>"; };
 		2609D7361E32597700B05889 /* MyBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBezierPath.m; sourceTree = "<group>"; };
+		26DA26D21E347D2900B979E9 /* GestureRecognizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureRecognizerViewController.h; sourceTree = "<group>"; };
+		26DA26D31E347D2900B979E9 /* GestureRecognizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizerViewController.m; sourceTree = "<group>"; };
+		26DA26D41E347D2900B979E9 /* GestureRecognizerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GestureRecognizerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +171,9 @@
 				2609D7331E32514500B05889 /* DrawView.m */,
 				2609D7351E32597700B05889 /* MyBezierPath.h */,
 				2609D7361E32597700B05889 /* MyBezierPath.m */,
+				26DA26D21E347D2900B979E9 /* GestureRecognizerViewController.h */,
+				26DA26D31E347D2900B979E9 /* GestureRecognizerViewController.m */,
+				26DA26D41E347D2900B979E9 /* GestureRecognizerViewController.xib */,
 			);
 			path = "Quartz 2D Demo";
 			sourceTree = "<group>";
@@ -309,6 +317,7 @@
 				2609D6F01E31B22C00B05889 /* LaunchScreen.storyboard in Resources */,
 				2609D7311E32467700B05889 /* DrawingBoardViewController.xib in Resources */,
 				2609D6ED1E31B22C00B05889 /* Assets.xcassets in Resources */,
+				26DA26D61E347D2900B979E9 /* GestureRecognizerViewController.xib in Resources */,
 				2609D6EB1E31B22C00B05889 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +355,7 @@
 				2609D7301E32467700B05889 /* DrawingBoardViewController.m in Sources */,
 				2609D6E51E31B22B00B05889 /* AppDelegate.m in Sources */,
 				2609D6E21E31B22B00B05889 /* main.m in Sources */,
+				26DA26D51E347D2900B979E9 /* GestureRecognizerViewController.m in Sources */,
 				2609D7261E31FBA200B05889 /* GestureLockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,6 +594,7 @@
 				2609D70C1E31B22C00B05889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2609D70D1E31B22C00B05889 /* Build configuration list for PBXNativeTarget "Quartz 2D DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +603,7 @@
 				2609D70F1E31B22C00B05889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2609D7101E31B22C00B05889 /* Build configuration list for PBXNativeTarget "Quartz 2D DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -600,6 +612,7 @@
 				2609D7121E31B22C00B05889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
